@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.intro-section h1 {
+    font-size: 80px;
+    color: #1877f2;
+}
+
+.intro-section p {
+    font-size: 24px;
+    line-height: 28px;
+    width: 500px;
+}
+
+.signin-section form {
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+    width: 396px;
+    min-height: 348px;
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.signin-section form input {
+    border: 1px solid #dddfe2;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+}
+
+.signin-section form input::placeholder {
+    color: #777;
+    font-size: 16px;
+}
+
+.signin-section form input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.signin-section form div button {
+    background-color: #1877f2;
+    border: none;
+    padding: 14px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signin-section form a {
+    text-decoration: none;
+    color: #1877f2;
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+    font-size: 14px;
+}
+
+hr {
+    margin: 20px 16px;
+    border-top: 0.1px solid #dddfe2;
+}
+
+.signin-section form .create-btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.signin-section form .create-btn button {
+    background-color: #42b72a;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+}
+
+.signin-section p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.signin-section p a {
+    color: black;
+}
