@@ -78,6 +78,11 @@ body {
     margin: 5px 0;
     font-weight: bold;
     cursor: pointer;
+    transition: background 0.1s ease-in;
+}
+
+.signin-section form div button:hover {
+    background: #0d65d9;
 }
 
 a {
@@ -89,7 +94,6 @@ a:hover {
 }
 
 .signin-section form a {
-    text-decoration: none;
     color: #1877f2;
     text-align: center;
     margin: 15px 0;
@@ -118,6 +122,11 @@ hr {
     border-radius: 5px;
     width: auto;
     cursor: pointer;
+    transition: background 0.1s ease-in;
+}
+
+.signin-section form .create-btn button:hover {
+    background: #3ba626;
 }
 
 .signin-section p {
