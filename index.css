@@ -143,7 +143,6 @@ hr {
 
 .signin-section p {
     text-align: center;
-
     font-size: 14px;
 }
 
@@ -154,5 +153,9 @@ hr {
 @media (max-width: 956px) {
     .intro-section {
         text-align: center;
+    }
+
+    .container {
+        padding-top: 40px;
     }
 }
